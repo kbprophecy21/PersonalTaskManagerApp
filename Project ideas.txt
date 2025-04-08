@@ -1,0 +1,26 @@
+Personal Task Manager App.
+
+
+
+Basic Version (Start Here)--
+
+* Console-based Application.
+
+* Allow user to: 
+
+    * Add a tast (title, due date, optional notes.).
+    * View all tasks.
+    * Mark a task as Completed.
+    *Delete a tasks.
+
+
+
+Concepts you'll practice: 
+
+    *Classes and objectsl
+    *Lists.
+    *Loops and conditionals.
+    *Basic input/output.
+    *Structuring your code.
+
+\--------------------------------------------------------------------------------\ 
