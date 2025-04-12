@@ -1,26 +1,16 @@
 using System;
-using System.Collections.Generic;
-
 
 namespace taskmanagerproject {
 
     class MainProgram {
 
-        List<string> tasks = [];
+        static void Main(string[] args) {
+            Console.WriteLine("Starting Task Manager...");
 
-        public List<string> showAllTask(){
-            return tasks;
+            // Create and run the GUI
+            var gui = new TaskManagerWindow();
+            gui.RunWindow();
         }
-
-
-        static void Main(String[] args) {
-
-            Console.writeline("Hello im working properly");
-
-
-        }   
-
     }
-
 }
 
