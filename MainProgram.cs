@@ -1,9 +1,10 @@
 ﻿using Avalonia;
 using System;
+using Avalonia.Controls;
 
 namespace PersonalTaskManagerApp;
 
-class Main
+class MainProgram
 {
     // This is the main entry point for the application.
     // The Main method is the starting point of the application.
@@ -13,10 +14,7 @@ class Main
 
     // The Main method is marked with [STAThread] to indicate that it should run in a single-threaded apartment.
     // This is important for certain UI frameworks to ensure thread safety.
-    {
-    // Initialization code. Don't use any Avalonia, third-party APIs or any
-    // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
-    // yet and stuff might break.
+
     [STAThread]
     public static void Main(string[] args) => BuildAvaloniaApp()
         .StartWithClassicDesktopLifetime(args);
@@ -27,6 +25,21 @@ class Main
             .UsePlatformDetect()
             .WithInterFont()
             .LogToTrace();
-    }
+}
 
+public class TaskManagerWindow : Window
+{
+    public TaskManagerWindow()
+    {
+        this.Title = "Task Manager GUI";
+        this.Width = 400;
+        this.Height = 300;
+
+        // Example content
+        var stackPanel = new StackPanel();
+        stackPanel.Children.Add(new TextBlock { Text = "Welcome to the Task Manager!" });
+        stackPanel.Children.Add(new Button { Content = "Click Me" });
+
+        this.Content = stackPanel;
+    }
 }

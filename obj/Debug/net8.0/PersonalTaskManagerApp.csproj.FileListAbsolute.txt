@@ -1,0 +1,8 @@
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.csproj.AssemblyReference.cache
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/Avalonia/resources
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.AssemblyInfoInputs.cache
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.AssemblyInfo.cs
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.csproj.CoreCompileInputs.cache
+/workspaces/PersonalTaskManagerApp/obj/Debug/net8.0/PersonalTaskManagerApp.sourcelink.json
